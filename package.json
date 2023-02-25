@@ -1,0 +1,36 @@
+{
+  "name": "r301-js-fetch",
+  "version": "1.0.0",
+  "description": "tp3 du module r301",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest",
+    "lint": "npx eslint src tests",
+    "fix": "npx eslint src tests --fix",
+    "build": "npx webpack",
+    "build:prod": "npx webpack --mode=production",
+    "build:watch": "npx webpack --watch",
+    "start": "npx webpack serve"
+  },
+  "keywords": [],
+  "author": "clément perrot",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^27.1.4",
+    "eslint-plugin-prettier": "^4.2.1",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
+    "prettier": "^2.7.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
